@@ -32,7 +32,7 @@ with open('password.txt','r') as file:
 		numbersInPass = countNumbers(password)
 		print ('User: ' + userName)
 		print ('Pass: ' + password)
-		print ('Pass length: ' + str(passLength))
+		print ('Pass length: ' +(passLength))
 		print ('Lower Case characters: ' + str(lowerCase))
 		print ('Capital Case characters: ' + str(capitalCase))
 		print ('Numbers: ' + str(numbersInPass))
